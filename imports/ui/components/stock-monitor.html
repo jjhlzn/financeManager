@@ -1,0 +1,9 @@
+<template name="stockMonitor">
+  <div class="row">
+  {{#each stocks}}
+    <div class="col-xs-3">
+        {{> stockLine}}
+    </div>
+  {{/each}}
+  </div>
+</template>
